@@ -13,3 +13,69 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 font-size: 16px;
 font-family: 'Libre Baskerville', serif;
 }
+
+
+/*Eslilizado de el menu principal*/
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    
+}
+
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+
+}
+
+.nav-logo{
+    width: 200px;
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.2rem;
+    display: none;
+}
+
+
+hr{
+    margin: 10px 0;
+}
+
