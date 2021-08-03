@@ -247,3 +247,51 @@ hr{
     opacity: .7;
     text-align: center;
 }
+
+@media (max-width: 700px){
+
+    .menu-btn{
+        display: block;
+    }
+
+    .nav-main ul.nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        transform: translateX(-400px);
+        padding: 30px;
+        opacity: .9;
+        transition: transform .5s ease-in-out ;
+    }
+
+    .nav-main ul.nav-menu.show{
+        transform: translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu li{
+        padding: 20px;
+        border-bottom: #ccc solid 1px;
+        font-size: 14px;
+    }
+
+
+    .nav-main ul.nav-menu-derecha{
+        margin-right: 50px;
+    }
+
+
+    .servicios{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .servicios-banner-uno .content, .servicios-banner-dos .content{
+        width: 80%;
+    }
+
+    .footer-links .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
