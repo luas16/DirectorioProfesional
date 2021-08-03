@@ -295,3 +295,30 @@ hr{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/*web Responsivo */
+@media (max-width: 500px){
+    .servicios{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .servicios img{
+        height: 250px;
+    }
+
+    .servicios-banner-uno .content, .servicios-banner-dos .content{
+        width: 100%;
+        padding: 10px 4px;
+    }
+
+
+
+    .footer-links .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .links a i{
+        font-size: 1.5rem;
+    }
+
+}
